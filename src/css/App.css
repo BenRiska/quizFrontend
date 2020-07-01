@@ -56,6 +56,10 @@ nav a:hover,
   align-items: center;
 }
 
+.choices ul li {
+  cursor: pointer;
+}
+
 .quiz {
   width: 100%;
   display: flex;
