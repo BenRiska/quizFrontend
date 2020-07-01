@@ -1,0 +1,106 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ddd;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav p {
+  margin: 0;
+}
+
+nav a,
+#submit {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: black;
+  background: #ddd;
+}
+
+nav a:hover,
+#submit:hover {
+  background: black;
+  color: white;
+}
+
+.prompt {
+  margin: 1rem;
+  text-transform: uppercase;
+}
+
+.choices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choices ul {
+  width: 20rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#question {
+  text-align: center;
+}
+
+#question span {
+  margin-right: 1rem;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#options ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#options ul li {
+  border: 1px black solid;
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 80%;
+}
+
+.selected {
+  border: 1px solid red !important;
+}
+
+footer {
+  margin: 2rem 0;
+  width: 100%;
+  text-align: center;
+}
